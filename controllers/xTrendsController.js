@@ -6,7 +6,7 @@ const fetchTweets = async () => {
     const allTweetsArr = []
     const allTweetsObj = {}
     const hashtag = await getAllGemeineTrends()
-    const keywords = Object.values(hashtag).splice(11, 20);
+    const keywords = Object.values(hashtag).splice(10, 20);
     
     for (const [idx, key] of keywords.entries()) {
         try {
