@@ -3,7 +3,6 @@ const app = express()
 import env from 'dotenv'
 import xRouter from './routes/xTrendsRoutes.js'
 import axios from 'axios'
-import axiosRetry from 'axios-retry'
 
 env.config({})
 
